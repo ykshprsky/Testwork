@@ -114,7 +114,7 @@ p {
 }
 .navbar-h li:hover {
   cursor: pointer;
-  transition: all 0.5 ease;
+  transition: all 0.5 ease-out;
   border-bottom: inset;
   border-color: #44c697;
 }
@@ -304,6 +304,7 @@ p {
 }
 .sec-slider-wrapper1 h5 {
   display: none;
+  transition: 2s;
 }
 .sec-slider-wrapper2 h5 {
   display: none;
@@ -338,20 +339,20 @@ p {
 .sec-slider-wrapper1 h3 {
   border-bottom: inset;
   border-color: #44c697;
-  margin-top: 270px;
+  margin-top: 270px;transition: 0.8s;
 }
 .sec-slider-wrapper2 h3 {
   border-bottom: inset;
   border-color: #44c697;
-  margin-top: 270px;
+  margin-top: 270px;transition: 0.8s;
 }
 .sec-slider-wrapper3 h3 {
   border-bottom: inset;
   border-color: #44c697;
-  margin-top: 270px;
+  margin-top: 270px;transition: 0.8s;
 }
 .sec-slider-wrapper2 {
-  display: flex;
+  display: flex;transition: all 0.8;
   flex-direction: column;
   padding-left: 30px;
   padding-bottom: 30px;
@@ -365,7 +366,7 @@ p {
   margin-right: 30px;
 }
 .sec-slider-wrapper3 {
-  display: flex;
+  display: flex;transition: all 0.8;
   position: relative;
   flex-direction: column;
   padding-left: 30px;
@@ -431,73 +432,20 @@ p {
   color: red;
   justify-self: flex-end;
 }
-.tovar-1:hover {
+.tovar:hover {
   transition: all 0.9s;
   transform: scale(1.04);
   cursor: pointer;
   background: #44c697;
   color: white !important;
 }
-.tovar-1:hover h4 {
+.tovar:hover h4 {
   color: white;
 }
-.tovar-2:hover h4 {
-  color: white;
-}
-.tovar-2:hover h5 {
+.tovar:hover h5 {
   color: white;
 }
 
-.tovar-3:hover h4 {
-  color: white;
-}
-.tovar-4:hover h4 {
-  color: white;
-}
-.tovar-5:hover h4 {
-  color: white;
-}
-.tovar-6:hover h4 {
-  color: white;
-}
-.tovar-6:hover h5 {
-  color: white;
-}
-.tovar-2:hover {
-  transition: all 0.9s;
-  transform: scale(1.04);
-  cursor: pointer;
-  background: #44c697;
-  color: white !important;
-}
-.tovar-3:hover {
-  transition: all 0.9s;
-  transform: scale(1.04);
-  cursor: pointer;
-  background: #44c697;
-  color: white !important;
-}
-.tovar-4:hover {
-  transition: all 0.9s;
-  transform: scale(1.04);
-  cursor: pointer;
-  background: #44c697;
-  color: white !important;
-}
-.tovar-5:hover {
-  transition: all 0.9s;
-  transform: scale(1.04);
-  cursor: pointer;
-  background: #44c697;
-  color: white !important;
-}
-.tovar-6:hover {
-  transition: all 0.9s;
-  transform: scale(1.04);
-  cursor: pointer;
-  background: #44c697;
-  color: white !important;
-}
 .btn-catalog {
   margin: auto;
   width: 190px;
@@ -513,20 +461,15 @@ p {
 .btn-catalog:hover {
   cursor: pointer;
 }
-.tovars-1 {
+.tovars{
   max-width: 1920px;
   display: flex;
   margin: auto;
   margin-bottom: 50px;
 }
-.tovars-2 {
-  max-width: 1920px;
-  display: flex;
-  margin: auto;
-  margin-bottom: 50px;
-}
-.tovar-1 {
-  position: relative;
+
+.tovar {
+  position: relative;transition: 0.8s;
 }
 .new {
   top: 10px;
@@ -550,19 +493,13 @@ p {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.tovar-2 {
-  position: relative;
+.middle{
+
   margin-left: 30px;
   margin-right: 30px;
 }
 
-.tovar-5 {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-.tovar-6 {
-  position: relative;
-}
+
 .about-us {
   position: relative;
   max-width: 1920px;
